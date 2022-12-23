@@ -1,0 +1,30 @@
+nav{
+  display: flex;
+  gap: 200px;
+  padding: 10px;
+  border-bottom: 2px solid darkgray;
+}
+nav div{
+  padding: 6px;
+}
+nav a {
+  color: darkgray;
+  text-decoration: none;
+
+}
+nav a:hover {
+  color: dimgray;
+
+
+}
+nav a.active {
+  color: dimgray;
+  border: 1px solid darkgray;
+  padding: 6px;
+}
+/*.active{*/
+/*  color: dimgray;*/
+/*  border: 1px solid darkgray;*/
+/*}*/
+
+
