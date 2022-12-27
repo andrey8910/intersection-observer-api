@@ -1,0 +1,9 @@
+<div class="posts" *ngFor="let post of posts ; let last = last">
+  <div class ="post"
+       [class.last-post]="last"
+
+  >
+    <h3>{{post.id}} {{post.title}}</h3>
+    <p>{{post.body}}</p>
+  </div>
+</div>
